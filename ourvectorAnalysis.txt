@@ -1,0 +1,31 @@
+# *********************************************************
+# ourvector<9ourvectorIcE> stats:
+#  # of vectors created:   469
+#  # of elements inserted: 1876
+#  # of elements accessed: 4366
+# *********************************************************
+# *********************************************************
+# ourvector<c> stats:
+#  # of vectors created:   2355
+#  # of elements inserted: 87907
+#  # of elements accessed: 89413
+# *********************************************************
+# *********************************************************
+# ourvector<i> stats:
+#  # of vectors created:   27
+#  # of elements inserted: 54
+#  # of elements accessed: 64
+# *********************************************************
+# *********************************************************
+# ourvector<6person> stats:
+#  # of vectors created:   3
+#  # of elements inserted: 12
+#  # of elements accessed: 40
+# *********************************************************
+
+person is the struct I created, I used the same person vector as funcion parameters. The first person vector made was the one in main line 304 and then created copies for functions in line 208 and 81. The program inserted 3 people in line 84, for each of those people, 1 name + 3 str values were stored totalling to 12 inserted elements. The 'everyonesData' vector was accessed in the functions where it was a parameter. 
+Int vectors were created whenever strCountStorage was used as a parameter. The elements were inserted during the process fucntion and accessed in display, and search.
+There were 2 char vectors, the first one being the dna sequence, which were created copied of in the function as parameters and each base in the dna sequence was stored inside. The dna vector was accessed in the search function and display function.
+The second char vector is a vector inside the firstline vector, each vector holds a word from the first line of small.txt and is accessed in the search, display, and process funtion as well. The only time elements were insterted in this vector was in the load_db function.
+Ourvector type vetors were created whenever the 'firstLine' vector was copied. each char in the first line was inserted in the char vector thats stored inside 'firstLine' an accessed whenever the strs were displayed or in the search function when the words in this vector were needed to find matching length in line 182. The loop itereated in another loop explaining the large amount of accessed elements.
+

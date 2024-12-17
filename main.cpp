@@ -1,5 +1,13 @@
+//  Creative component: "find" function, used to locate a particular sequence in the loaded dna and 
+//  makes it visible by using a marker which the user also inputs
+//  must load DNA before it can be used
+//  input "find" to run.
 
+//  Project 1 - DNA Profiling
+//  Lewis Dayrit
 //  This program takes data of people's str counts and sequences of DNA and tries to find a match
+//  
+//
 
 #include "ourvector.h"
 #include <fstream>

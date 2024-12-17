@@ -1,0 +1,6 @@
+load_db large.txt load_dna 20.txt process
+
+load_db small.txt load_dna 1.txt process
+
+
+    
